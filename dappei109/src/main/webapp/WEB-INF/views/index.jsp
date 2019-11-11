@@ -182,7 +182,7 @@
             <!-- Left nav -->
             <ul class="nav navbar-nav">
               <li><a href="index.html">首頁</a></li>
-              <li><a href="#">活動 <span class="caret"></span></a>
+              <li><a href="events">活動 <span class="caret"></span></a>
                 <ul class="dropdown-menu">                
                   <li><a href="#">Casual</a></li>
                   <li><a href="#">Sports</a></li>

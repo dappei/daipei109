@@ -84,8 +84,8 @@ public class EventController {
 		return "event/event";
 	}
 	//取出資料庫Blob物件
-	@RequestMapping(value="/getPicture/{eventId}",method=RequestMethod.GET)
-	public ResponseEntity<byte[]> getPicture(HttpServletResponse resp,@PathVariable Integer eventId){
+	@RequestMapping(value="/getEventPicture/{eventId}",method=RequestMethod.GET)
+	public ResponseEntity<byte[]> geteventPicture(HttpServletResponse resp,@PathVariable Integer eventId){
 		byte[] media = null;
 		HttpHeaders headers = new HttpHeaders();
 		String filename = "";

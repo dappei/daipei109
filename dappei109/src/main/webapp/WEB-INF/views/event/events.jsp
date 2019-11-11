@@ -56,7 +56,7 @@
 		 <div class="col-md-4">
 	      <div class="card mb-4 shadow-sm">
 	       <img class="bd-placeholder-img card-img-top" width='100%' height='225' 
-	         src="<c:url value='/getPicture/${event.eventId}'/>"/>	           
+	         src="<c:url value='/getEventPicture/${event.eventId}'/>"/>	           
 	            <div class="card-body">
 	              <p><b style='font-size: 16px;'>${event.eventName}</b></p>
 					<p><img src="${pageContext.request.contextPath}/image/clock.png"width="20" height="20">${event.eventStartTime}</p>              

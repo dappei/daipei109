@@ -58,7 +58,7 @@ input[type=button] {
 		<table border="1" >
 		<tr><th>活動圖片<th>活動編號<th>活動名稱<th>活動開始時間<th>活動結束時間<th>數量<th>更新<th>開啟
 		<c:forEach items="${events}" var="event"  >
-			<tr><td><img src="<c:url value='/getPicture/${event.eventId}'/>" width="150" height="100"/>
+			<tr><td><img src="<c:url value='/getEventPicture/${event.eventId}'/>" width="150" height="100"/>
 			<td>${event.eventId}
 			<td>${event.eventName}
 			<td>${event.eventStartTime}

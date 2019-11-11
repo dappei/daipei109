@@ -24,7 +24,7 @@
 	<br><br><br>
 		
 		<div class="container">
-			<img src="<c:url value='/getPicture/${event.eventId}'/>" width=100% height=100%/>
+			<img src="<c:url value='/getEventPicture/${event.eventId}'/>" width=100% height=100%/>
 		</div>
 	
 	<main id="main" class="container">
